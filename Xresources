@@ -1,0 +1,60 @@
+#define theme0  #3d3d3d
+#define theme1  #6673bf
+#define theme2  #3ea290
+#define theme3  #b0ead9
+#define theme4  #31658c
+#define theme5  #596196
+#define theme6  #8292b2
+#define theme7  #c8cacc
+#define theme8  #4d4d4d
+#define theme9  #899aff
+#define theme10 #52ad91
+#define theme11 #98c9bb
+#define theme12 #477ab3
+#define theme13 #7882bf
+#define theme14 #95a7cc
+#define theme15 #edeff2
+
+! special
+*.foreground:   #ffffff
+*.background:   #1b1b1b
+*.cursorColor:  #ffffff
+
+*.color0: 		theme0
+*.color1: 		theme1
+*.color2: 		theme2
+*.color3: 		theme3
+*.color4: 		theme4
+*.color5: 		theme5
+*.color6: 		theme6
+*.color7: 		theme7
+*.color8: 		theme8
+*.color9: 		theme9
+*.color10: 		theme10
+*.color11: 		theme11
+*.color12: 		theme12
+*.color13: 		theme13
+*.color14: 		theme14
+*.color15: 		theme15
+
+!URxvt
+URxvt.font:                 xft:Fantasque Sans Mono:12
+URxvt.bold_font:            xft:Fantasque Sans Mono-bold:12
+URxvt.scrollBar:	    false
+URxvt.internalBorder:       40
+URxvt.saveLines:	    0
+
+
+rofi.color-window:     theme15, theme0, #1d1f21
+rofi.color-normal:     theme15, theme0, theme15, theme0, theme7
+rofi.color-urgent:     theme15, theme0, theme15, theme0, theme7
+rofi.color-active:     theme15, theme0, theme15, theme0, theme7
+rofi.width:            100
+rofi.lines:            5
+rofi.columns:          1
+rofi.padding:          480
+rofi.eh:               1.3
+rofi.cycle:            false
+rofi.separator-style:  solid
+rofi.hide-scrollbar:   true
+rofi.font:  	       xft:Fantasque Sans Mono-bold 14
