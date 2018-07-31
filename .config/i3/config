@@ -173,4 +173,5 @@ exec compton -b --config ~/.config/compton/compton.conf
 exec xrdb ~/.config/.Xresources
 exec feh --bg-scale ~/.config/background.jpg
 
-exec "setxkbmap -layout us,il"
+exec setxkbmap -layout us,il
+exec setxkbmap -option 'grp:alt_shift_toggle'
