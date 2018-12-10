@@ -1,7 +1,7 @@
 
 # SlowL0ris's dotfiles
 ![alt text](
-https://cdn.rawgit.com/SlowL0ris/.dotfiles/83ba1a9c/screenshot.png
+https://cdn.jsdelivr.net/gh/SlowL0ris/.dotfiles@83ba1a9c/screenshot.png
 "Screenshot")
 
 ##  Dependencies
